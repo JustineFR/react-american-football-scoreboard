@@ -12,8 +12,14 @@ function App() {
 
   return (
     <div className="container">
-      <ScoreBoard homeScore={homeScore} awayScore={awayScore}/>
-      <Buttons homeScore={homeScore} awayScore={awayScore} setHomeScore={setHomeScore} setAwayScore={setAwayScore}/>
+      <ScoreBoard 
+        homeScore={homeScore} 
+        awayScore={awayScore} />
+      <Buttons 
+        homeScore={homeScore} 
+        awayScore={awayScore} 
+        setHomeScore={setHomeScore} 
+        setAwayScore={setAwayScore} />
     </div>
   );
 }
